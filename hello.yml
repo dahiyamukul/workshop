@@ -1,4 +1,4 @@
-name: Build C Program 2
+ name: Build C Program 2
 
 on: [push]
 

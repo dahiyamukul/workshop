@@ -19,5 +19,5 @@ jobs:
       with:
         python-version: '3.12' # Use the Python version you need
 
-    - name: Run justtestingcode.py
-      run: python justtestingcode.py
+    - name: Run workshop.py
+      run: python workshop.py

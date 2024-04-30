@@ -21,19 +21,3 @@ jobs:
 
     - name: Run justtestingcode.py
       run: python justtestingcode.py
-  run_python_script_2:
-    needs: run_python_script
-    name: Run hello.py 2
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.12' # Use the Python version you need
-
-    - name: Run justtestingcode.py 2
-      run: python justtestingcode.py

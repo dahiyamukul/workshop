@@ -14,11 +14,11 @@ on:
            - name: Checkout repository
              uses: actions/checkout@v2
 
-           - name: Set up python
+           - name: Set up Python
              uses: actions/setup-python@v2
              with:
                python-version: '3.12' 
 
            - name: Run justtestingcode.py
-             run:python justtestingcode.py
+             run: python justtestingcode.py
         
